@@ -1,7 +1,7 @@
 baseURL = "https://amazing-noyce-0542fe.netlify.com"
 languageCode = "en"                                      # website language
 defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
-title = "Johnett's Profile"                                   # website title
+title = "Johnett Mathew"                                   # website title
 theme = "LoveIt"                                         # theme
 enableGitInfo = false                                    # whether to use git commit log to generate lastmod record
 hasCJKLanguage = false                                   # whether to include chinese/japanese/korean
@@ -49,12 +49,12 @@ staticDir = ["static", "../assets/others"]               # static directories
   home_mode = "post"                                     # [post, other] home mode
   home_paginate = 6                                      # special amount of posts in each home post page
   avatar = "images/avatar.png"                           # URL of avatar shown in home page
-  subtitle = "A Clean, Elegant but Advanced Hugo Theme"  # subtitle shown in home page
+  subtitle = """val description ="Android Engineer, Loves Kotlin..." """  # subtitle shown in home page
 
   socialShare = true                                     # whether to show social share links in post page
 
                                                       #### Footer CopyRight Info
-  since = 2018                                           # Site creation time
+  since = 2020                                           # Site creation time
   icp = ''                                               # ICP info only in China (HTML format is allowed)
   license= '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
                                                          # license info (HTML format is allowed)
