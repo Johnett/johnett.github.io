@@ -1,7 +1,7 @@
-baseURL = "https://example.com/"
+baseURL = "https://amazing-noyce-0542fe.netlify.com"
 languageCode = "en"                                      # website language
 defaultContentLanguage = "en"                            # [en, zh, ...] determines which i18n file to use
-title = "LoveIt Theme"                                   # website title
+title = "Johnett's Profile"                                   # website title
 theme = "LoveIt"                                         # theme
 enableGitInfo = false                                    # whether to use git commit log to generate lastmod record
 hasCJKLanguage = false                                   # whether to include chinese/japanese/korean
@@ -22,7 +22,7 @@ pygmentsCodefencesGuessSyntax = true
 staticDir = ["static", "../assets/others"]               # static directories
 
 [author]                                              #### Author Info
-  name = "XXXX"
+  name = "Johnett Mathew"
 
 [sitemap]                                             #### Sitemap Info
   changefreq = "weekly"
@@ -34,34 +34,11 @@ staticDir = ["static", "../assets/others"]               # static directories
 
 [menu]                                                #### Menu Info
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "posts"
+    identifier = "projects"
+    name = "Projects"
+    url = "projects"
     weight = 1
 
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "tags"
-    weight = 2
-
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "categories"
-    weight = 3
-
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "about"
-    weight = 4
-
-  [[menu.main]]
-    identifier = "zh"
-    name = '<i class="fas fa-language fa-fw"></i>'
-    url = "https://hugo-loveit-zh.netlify.com"
-    weight = 5
 
 [params]
   version = "5.x"                                        # LoveIt theme version
@@ -117,76 +94,15 @@ staticDir = ["static", "../assets/others"]               # static directories
     email = "johnettmathew@gmail.com"
 
   [params.social]                                        # Social Info in home page
-    GitHub = "xxxx"
-    Linkedin = "xxxx"
-    Twitter = "xxxx"
-    #Instagram = "xxxx"
-    #Email = "xxxx"
-    Facebook = "xxxx"
-    Telegram = "xxxx"
-    #Medium = "xxxx"
-    #Gitlab = "xxxx"
-    #Youtubelegacy = "xxxx"
-    #Youtubecustom = "xxxx"
-    #Youtubechannel = "xxxx"
-    #Tumblr ="xxxx"
-    #Quora = "xxxx"
-    #Keybase = "xxxx"
-    #Pinterest = "xxxx"
-    #Reddit = "xxxx"
-    #Codepen = "xxxx"
-    #Bitbucket = "xxxx"
-    #Stackoverflow = "xxxx"
-    #Weibo = "xxxx"
-    #Odnoklassniki = "xxxx"
-    #VKontakte = "xxxx"
-    #Flickr = "xxxx"
-    #Xing = "xxxx"
-    #Snapchat = "xxxx"
-    #Soundcloud = "xxxx"
-    #Spotify = "xxxx"
-    #Bandcamp = "xxxx"
-    #Paypal = "xxxx"
-    #Fivehundredpx = "xxxx"
-    #Mix = "xxxx"
-    #Goodreads = "xxxx"
-    #Lastfm = "xxxx"
-    #Foursquare = "xxxx"
-    #Hackernews = "xxxx"
-    #Kickstarter = "xxxx"
-    #Patreon = "xxxx"
-    #Steam = "xxxx"
-    #Twitch = "xxxx"
-    #Strava = "xxxx"
-    #Skype = "xxxx"
-    #Whatsapp = "xxxx"
-    #Zhihu = "xxxx"
-    #Douban = "xxxx"
-    #Angellist = "xxxx"
-    #Slidershare = "xxxx"
-    #Jsfiddle = "xxxx"
-    #Deviantart = "xxxx"
-    #Behance = "xxxx"
-    #Dribble = "xxxx"
-    #Wordpress = "xxxx"
-    #Vine = "xxxx"
-    #Googlescholar = "xxxx"
-    #Researchgate = "xxxx"
-    #Mastodon = "xxxx"
-    #Thingiverse = "xxxx"
+    GitHub = "johnett"
+    Linkedin = "johnett"
+    Twitter = "johnett_"
 
   [params.share]                                         # Social Share Links in post page
     enable = true
     Twitter = true
     Facebook = true
     Reddit = true
-    #Linkedin = true
-    #Pinterest = true
-    #HackerNews = true
-    #Mix = true
-    #Tumblr = true
-    #VKontakte = true
-    #Weibo = true
 
   [params.publisher]                                     # Publisher Info just for SEO
     name = "XXXX"
