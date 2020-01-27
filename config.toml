@@ -97,6 +97,7 @@ staticDir = ["static", "../assets/others"]               # static directories
     GitHub = "johnett"
     Linkedin = "johnett"
     Twitter = "johnett_"
+    Stackoverflow = "johnett-mathew"
 
   [params.share]                                         # Social Share Links in post page
     enable = true
