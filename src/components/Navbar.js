@@ -15,6 +15,8 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAndroid, faFlutter } from '@fortawesome/free-brands-svg-icons';
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -38,8 +40,9 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+        <Navbar.Brand href="/" className="d-flex align-items-center gap-2">
+          <FontAwesomeIcon icon={faFlutter} size="lg" color="#02569B" />
+          <FontAwesomeIcon icon={faAndroid} size="lg" color="#3DDC84" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -94,7 +97,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
+                href="https://johnett.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -104,7 +107,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/Johnett/johnett.github.io"
                 target="_blank"
                 className="fork-btn-inner"
               >
