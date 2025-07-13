@@ -44,7 +44,7 @@ function NavBar() {
           <img
             src={logo}
             alt="Logo"
-            style={{ height: '66px', width: 'auto' }}
+            style={{ height: '60px', width: 'auto' }}
           />
         </Navbar.Brand>
         <Navbar.Toggle
